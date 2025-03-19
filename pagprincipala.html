@@ -5,63 +5,230 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-body
+body{
+    background-color: #303030;
+}
+*
 {
-
+    margin: 0;
 }
 
 nav
 { 
     
-    background-color:gray;
+    background-color: #FF0000;
     color: white;
-    height: 120px;
+    height: 80px;
     display: flex;
     align-items: center;
+}
+.Logo
+{
+    height: 80px;
+}
+.imagine
+{
+    display: flex;
+    height: 80px;
     border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    gap: 10px;
+    width: 30%;
+    align-items: center;
+    justify-content: left;
 }
-.Logo{
-    height: 100px;
-    margin-top: 1px;
-
-}
-.Cauta
+.produse
 {
-    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 20px;
+    height: 40px;
+    margin: 0px;
+    padding: 10px;
+    width: 20%;
+    font-size: 120%;
+    gap: 10px;
+    transition: font-size 1s;
 }
-.Lupa
+.produse:hover
 {
-    height: 20px;
+    font-size: 140%;
+}
+.stilproduse
+{
+    color: black;
+    text-decoration: none;
+}
+.pachete
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 120%;
+    gap: 10px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 20px;
+    width: 20%;
+    transition: font-size 1s;
+}
+.pachete:hover
+{
+    font-size: 140%;
+}
+.stilpachete
+{
+    color: black;
+    text-decoration: none;
+}
+.divcontact
+{
+    display: flex;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    gap: 10px;
+    width: 30%;
+    justify-content: end;
+    align-items: center;
+}
+.Locatie
+{
+    height: 40px;
+    transition: height 1s;
+}
+.Locatie:hover
+{
+    height: 50px;
+}
+.cos
+{
+    height: 40px;
+    transition: height  1s;
+}
+.cos:hover
+{
+    height: 50px;
+}
+.contact
+{
+    height: 40px;
+    transition: width 1s, height 1s;
+}
+.contact:hover
+{
+    height: 50px;
 }
 
 
+.divtitlu
+{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 20px;
+}
+.titlu 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF0000;
+    color: black;
+    padding: 20px;
+    width: 960px;
+}
+.divtext
+{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: 20px;
+}
+.text 
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 950px;
+    background-color: #FF0000;
+    font-size: 120%;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.divpoze
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cutie
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 485px;
+    height: 500px;
+    margin: 15px;
+}
 
-    </style>
+</style>
 </head>
 <body>
-
-
     <nav>
-
-<img src="freepik__adjust__89171.png" class="Logo">
-<input type="search" placeholder="Cauta produse" class="Cauta">
-<img src="magnifying-glass-icon-search-symbol-260nw-1548984155.jpg" class="Lupa">
-<a href="Autentificare.html">Autentificare</a>
-<a href="Despre noi.html">Despre noi</a>
-
-
-
+        <div class="imagine">
+            <img src="freepik__adjust__89171.png" class="Logo">
+        </div>
+        <div class="produse">
+            <a href="Produse.html" class="stilproduse"><b>Produse</b></a>
+        </div>
+        <div class="pachete">
+            <a href="" class="stilpachete"><b>Pachete</b></a>
+        </div>
+        <div class="divcontact">
+            <a href="/locatie.html"><img class="Locatie" src="/8666640_map_pin_icon.png"></a>
+            <a href=""><img src="/8665027_basket_shopping_icon.png" class="cos"></a>
+            <a href="Contact.html"><img src="/8666660_phone_call_icon.png" class="contact"  ></a>
+        </div>
     </nav>
 
 
+    <div class="divtitlu">
+        <div class="titlu">
+            <h1>Despre noi</h1>
+        </div>
+    </div>
 
+    <div class="divtext">
+        <div class="text">
+            <p>Suntem dedicați siguranței și protecției tale. Oferim o gamă variată de produse de autoapărare, de la spray-uri lacrimogene,
+                 arme de autoapărare, până la alarme personale și accesorii de protecție. Fie că ești în căutarea unui mijloc de apărare 
+                 personală pentru siguranța ta zilnică sau vrei să îți protejezi familia, găsești tot ce ai nevoie într-un singur loc. 
+                 Produsele noastre sunt de înaltă calitate, ușor de utilizat și sunt alese pentru a-ți oferi liniștea de care ai nevoie, 
+                 știind că ești pregătit pentru orice situație. Explorează colecția noastră și investește în siguranța ta!</p>
+        </div>
+    </div>
 
-
-
-
-
-
-
-
+    <div class="divtitlu">
+        <div class="titlu">
+            <h1>Cele mai cumparate produse</h1>
+        </div>
+    </div>
+    
+    <div class="divpoze">
+        <div class="cutie">
+            <img src="https://s13emagst.akamaized.net/products/10631/10630274/images/res_2e615f1d449cfeac98e7094b6f538cb6.jpg?width=720&height=720&hash=86A9CB7921391C6378C3ABE8CD12DC2C" class="cutie">
+        </div>
+        <div class="divpoze">
+            <div class="cutie">
+                <img src="https://www.magazindearme.ro/wp-content/uploads/nc/p/7/0/5/705.jpg" class="cutie">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
